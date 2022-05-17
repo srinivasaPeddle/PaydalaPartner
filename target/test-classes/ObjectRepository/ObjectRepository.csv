@@ -1,0 +1,6 @@
+DATE,PAGE,OBJECT_TYPE,ELEMENTNAME,DYNAMIC_XPATH,XPATH,HTMLID,CSS SELECTOR,NAME,CLASSNAME
+11-05-2022,Login,Text Box,userName,,//input[@placeholder='Enter Email ID'],,,,
+11-05-2022,Login,Password,password,,//input[@placeholder='Enter Password'],,,,
+11-05-2022,Login,Button,login,,//button[@type='submit'],,,,
+11-05-2022,Home,Header,Dashboard,,//h3[text()='Dashboard'],,,,
+11-05-2022,Home,Button,logout,,//span[text()='Log Out']/parent::a,,,,

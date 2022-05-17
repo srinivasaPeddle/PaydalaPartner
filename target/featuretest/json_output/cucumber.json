@@ -1,0 +1,304 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4562502600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login into Unity Dashboard",
+        "description": "",
+        "id": "partner-login;login-into-unity-dashboard",
+        "after": [
+          {
+            "result": {
+              "duration": 1206667900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5433964100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Navigate to Partner Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Partner",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefs.navigateToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1689695800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I login to application with USER1_VALUE, PASSWORD1_VALUE",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USER1_VALUE",
+                  "offset": 28
+                },
+                {
+                  "val": " PASSWORD1_VALUE",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefs.login(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1295931800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I logout from the application",
+            "match": {
+              "location": "StepDefs.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Login1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1780733600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login into Unity Dashboard 1@test4@test.com",
+        "description": "",
+        "id": "partner-login;login-into-unity-dashboard-\u003cindex\u003e@\u003cusername\u003e;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 982104400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5255435900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Navigate to Partner Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Partner",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefs.navigateToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1735740400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I login to application with test4@test.com, DGdaXVpva",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test4@test.com",
+                  "offset": 28
+                },
+                {
+                  "val": " DGdaXVpva",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefs.login(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1281310200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I logout from the application",
+            "match": {
+              "location": "StepDefs.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Login2"
+          },
+          {
+            "line": 1,
+            "name": "@DryRun"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1694003300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login into Unity Dashboard 2@test4@test.com",
+        "description": "",
+        "id": "partner-login;login-into-unity-dashboard-\u003cindex\u003e@\u003cusername\u003e;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 939694800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4972487000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I Navigate to Partner Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Partner",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefs.navigateToUrl(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1689360500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I login to application with test4@test.com, DGdaXVpva",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test4@test.com",
+                  "offset": 28
+                },
+                {
+                  "val": " DGdaXVpva",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefs.login(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1428241100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I logout from the application",
+            "match": {
+              "location": "StepDefs.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@Login2"
+          },
+          {
+            "line": 1,
+            "name": "@DryRun"
+          }
+        ]
+      }
+    ],
+    "name": "Partner_Login",
+    "description": "",
+    "id": "partner-login",
+    "keyword": "Feature",
+    "uri": "Partner.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@DryRun"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.pack.executor.runner.Runner
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.886 sec - in com.pack.executor.runner.Runner

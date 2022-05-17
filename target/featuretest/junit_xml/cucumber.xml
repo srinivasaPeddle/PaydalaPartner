@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="35.947873">
+    <testcase classname="Partner_Login" name="Login into Unity Dashboard" time="14.188762">
+        <system-out>
+            <![CDATA[Given I Navigate to Partner Page............................................passed
+When I login to application with USER1_VALUE, PASSWORD1_VALUE...............passed
+And I logout from the application...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Partner_Login" name="Login into Unity Dashboard 1@test4@test.com" time="11.035324">
+        <system-out>
+            <![CDATA[Given I Navigate to Partner Page............................................passed
+When I login to application with test4@test.com, DGdaXVpva..................passed
+And I logout from the application...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Partner_Login" name="Login into Unity Dashboard 2@test4@test.com" time="10.723787">
+        <system-out>
+            <![CDATA[Given I Navigate to Partner Page............................................passed
+When I login to application with test4@test.com, DGdaXVpva..................passed
+And I logout from the application...........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
